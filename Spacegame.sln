@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceGameAndroid", "SpaceGameAndroid\SpaceGameAndroid.csproj", "{281F82A9-41F3-4FEA-A3D7-F2E940BCE202}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SpaceGameCommon", "SpaceGameCommon\SpaceGameCommon.shproj", "{3DF77CA3-3AEE-4ADD-B371-3A76BF3E68EC}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SpaceGameCommon\SpaceGameCommon.projitems*{281f82a9-41f3-4fea-a3d7-f2e940bce202}*SharedItemsImports = 4
+		SpaceGameCommon\SpaceGameCommon.projitems*{3df77ca3-3aee-4add-b371-3a76bf3e68ec}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		Ad-Hoc|iPhoneSimulator = Ad-Hoc|iPhoneSimulator
+		AppStore|iPhone = AppStore|iPhone
+		AppStore|iPhoneSimulator = AppStore|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{281F82A9-41F3-4FEA-A3D7-F2E940BCE202}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{281F82A9-41F3-4FEA-A3D7-F2E940BCE202}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{281F82A9-41F3-4FEA-A3D7-F2E940BCE202}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{281F82A9-41F3-4FEA-A3D7-F2E940BCE202}.Ad-Hoc|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{281F82A9-41F3-4FEA-A3D7-F2E940BCE202}.Ad-Hoc|iPhoneSimulator.Deploy.0 = Debug|Any CPU
+		{281F82A9-41F3-4FEA-A3D7-F2E940BCE202}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{281F82A9-41F3-4FEA-A3D7-F2E940BCE202}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{281F82A9-41F3-4FEA-A3D7-F2E940BCE202}.AppStore|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{281F82A9-41F3-4FEA-A3D7-F2E940BCE202}.AppStore|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{281F82A9-41F3-4FEA-A3D7-F2E940BCE202}.AppStore|iPhoneSimulator.Deploy.0 = Debug|Any CPU
+		{281F82A9-41F3-4FEA-A3D7-F2E940BCE202}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{281F82A9-41F3-4FEA-A3D7-F2E940BCE202}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{281F82A9-41F3-4FEA-A3D7-F2E940BCE202}.Debug|iPhone.Deploy.0 = Debug|Any CPU
+		{281F82A9-41F3-4FEA-A3D7-F2E940BCE202}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{281F82A9-41F3-4FEA-A3D7-F2E940BCE202}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{281F82A9-41F3-4FEA-A3D7-F2E940BCE202}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{281F82A9-41F3-4FEA-A3D7-F2E940BCE202}.Release|iPhone.Build.0 = Release|Any CPU
+		{281F82A9-41F3-4FEA-A3D7-F2E940BCE202}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{281F82A9-41F3-4FEA-A3D7-F2E940BCE202}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Spacegame\SpaceGameiOS.csproj
+	EndGlobalSection
+EndGlobal
